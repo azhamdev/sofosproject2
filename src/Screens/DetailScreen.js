@@ -21,7 +21,7 @@ export default function DetailScreen({ navigation }) {
             Robot AGV KAIBO mampu berjalan pada jalur yang sudah ditentukan, dan memiliki daya angkut hingga 300 kg. Robot ini didesain untuk membawa dan memindahkan barang dalam suatu proses produksi di pabrik.
           </Text>
         </View>
-        <ButtonCart onPress={() => navigation.navigate("Mekanik")} />
+        <ButtonCart onPress={() => navigation.navigate("Cart")} />
       </View>
     </View>
   )
